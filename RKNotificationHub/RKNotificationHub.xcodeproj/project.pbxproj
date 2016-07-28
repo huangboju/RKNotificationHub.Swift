@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D830ACFA1D4A0C380086D9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D830ACF91D4A0C380086D9F1 /* AppDelegate.swift */; };
+		D830ACFC1D4A0C380086D9F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D830ACFB1D4A0C380086D9F1 /* ViewController.swift */; };
+		D830ACFF1D4A0C380086D9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830ACFD1D4A0C380086D9F1 /* Main.storyboard */; };
+		D830AD011D4A0C380086D9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D830AD001D4A0C380086D9F1 /* Assets.xcassets */; };
+		D830AD041D4A0C380086D9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830AD021D4A0C380086D9F1 /* LaunchScreen.storyboard */; };
+		D830AD0F1D4A0C390086D9F1 /* RKNotificationHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D830AD0E1D4A0C390086D9F1 /* RKNotificationHubTests.swift */; };
+		D830AD1A1D4A0C390086D9F1 /* RKNotificationHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D830AD191D4A0C390086D9F1 /* RKNotificationHubUITests.swift */; };
+		D830AD281D4A0C560086D9F1 /* RKNotificationHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = D830AD271D4A0C560086D9F1 /* RKNotificationHub.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D830AD0B1D4A0C390086D9F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830ACEE1D4A0C380086D9F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830ACF51D4A0C380086D9F1;
+			remoteInfo = RKNotificationHub;
+		};
+		D830AD161D4A0C390086D9F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830ACEE1D4A0C380086D9F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830ACF51D4A0C380086D9F1;
+			remoteInfo = RKNotificationHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D830ACF61D4A0C380086D9F1 /* RKNotificationHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKNotificationHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830ACF91D4A0C380086D9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D830ACFB1D4A0C380086D9F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D830ACFE1D4A0C380086D9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D830AD001D4A0C380086D9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D830AD031D4A0C380086D9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D830AD051D4A0C380086D9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830AD0A1D4A0C390086D9F1 /* RKNotificationHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKNotificationHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830AD0E1D4A0C390086D9F1 /* RKNotificationHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKNotificationHubTests.swift; sourceTree = "<group>"; };
+		D830AD101D4A0C390086D9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830AD151D4A0C390086D9F1 /* RKNotificationHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKNotificationHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830AD191D4A0C390086D9F1 /* RKNotificationHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKNotificationHubUITests.swift; sourceTree = "<group>"; };
+		D830AD1B1D4A0C390086D9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830AD271D4A0C560086D9F1 /* RKNotificationHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKNotificationHub.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D830ACF31D4A0C380086D9F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830AD071D4A0C390086D9F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830AD121D4A0C390086D9F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D830ACED1D4A0C380086D9F1 = {
+			isa = PBXGroup;
+			children = (
+				D830ACF81D4A0C380086D9F1 /* RKNotificationHub */,
+				D830AD0D1D4A0C390086D9F1 /* RKNotificationHubTests */,
+				D830AD181D4A0C390086D9F1 /* RKNotificationHubUITests */,
+				D830ACF71D4A0C380086D9F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D830ACF71D4A0C380086D9F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D830ACF61D4A0C380086D9F1 /* RKNotificationHub.app */,
+				D830AD0A1D4A0C390086D9F1 /* RKNotificationHubTests.xctest */,
+				D830AD151D4A0C390086D9F1 /* RKNotificationHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D830ACF81D4A0C380086D9F1 /* RKNotificationHub */ = {
+			isa = PBXGroup;
+			children = (
+				D830AD271D4A0C560086D9F1 /* RKNotificationHub.swift */,
+				D830ACF91D4A0C380086D9F1 /* AppDelegate.swift */,
+				D830ACFB1D4A0C380086D9F1 /* ViewController.swift */,
+				D830ACFD1D4A0C380086D9F1 /* Main.storyboard */,
+				D830AD001D4A0C380086D9F1 /* Assets.xcassets */,
+				D830AD021D4A0C380086D9F1 /* LaunchScreen.storyboard */,
+				D830AD051D4A0C380086D9F1 /* Info.plist */,
+			);
+			path = RKNotificationHub;
+			sourceTree = "<group>";
+		};
+		D830AD0D1D4A0C390086D9F1 /* RKNotificationHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				D830AD0E1D4A0C390086D9F1 /* RKNotificationHubTests.swift */,
+				D830AD101D4A0C390086D9F1 /* Info.plist */,
+			);
+			path = RKNotificationHubTests;
+			sourceTree = "<group>";
+		};
+		D830AD181D4A0C390086D9F1 /* RKNotificationHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D830AD191D4A0C390086D9F1 /* RKNotificationHubUITests.swift */,
+				D830AD1B1D4A0C390086D9F1 /* Info.plist */,
+			);
+			path = RKNotificationHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D830ACF51D4A0C380086D9F1 /* RKNotificationHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830AD1E1D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHub" */;
+			buildPhases = (
+				D830ACF21D4A0C380086D9F1 /* Sources */,
+				D830ACF31D4A0C380086D9F1 /* Frameworks */,
+				D830ACF41D4A0C380086D9F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKNotificationHub;
+			productName = RKNotificationHub;
+			productReference = D830ACF61D4A0C380086D9F1 /* RKNotificationHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D830AD091D4A0C390086D9F1 /* RKNotificationHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830AD211D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHubTests" */;
+			buildPhases = (
+				D830AD061D4A0C390086D9F1 /* Sources */,
+				D830AD071D4A0C390086D9F1 /* Frameworks */,
+				D830AD081D4A0C390086D9F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830AD0C1D4A0C390086D9F1 /* PBXTargetDependency */,
+			);
+			name = RKNotificationHubTests;
+			productName = RKNotificationHubTests;
+			productReference = D830AD0A1D4A0C390086D9F1 /* RKNotificationHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D830AD141D4A0C390086D9F1 /* RKNotificationHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830AD241D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHubUITests" */;
+			buildPhases = (
+				D830AD111D4A0C390086D9F1 /* Sources */,
+				D830AD121D4A0C390086D9F1 /* Frameworks */,
+				D830AD131D4A0C390086D9F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830AD171D4A0C390086D9F1 /* PBXTargetDependency */,
+			);
+			name = RKNotificationHubUITests;
+			productName = RKNotificationHubUITests;
+			productReference = D830AD151D4A0C390086D9F1 /* RKNotificationHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D830ACEE1D4A0C380086D9F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xiAo_Ju;
+				TargetAttributes = {
+					D830ACF51D4A0C380086D9F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D830AD091D4A0C390086D9F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D830ACF51D4A0C380086D9F1;
+					};
+					D830AD141D4A0C390086D9F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D830ACF51D4A0C380086D9F1;
+					};
+				};
+			};
+			buildConfigurationList = D830ACF11D4A0C380086D9F1 /* Build configuration list for PBXProject "RKNotificationHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D830ACED1D4A0C380086D9F1;
+			productRefGroup = D830ACF71D4A0C380086D9F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D830ACF51D4A0C380086D9F1 /* RKNotificationHub */,
+				D830AD091D4A0C390086D9F1 /* RKNotificationHubTests */,
+				D830AD141D4A0C390086D9F1 /* RKNotificationHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D830ACF41D4A0C380086D9F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830AD041D4A0C380086D9F1 /* LaunchScreen.storyboard in Resources */,
+				D830AD011D4A0C380086D9F1 /* Assets.xcassets in Resources */,
+				D830ACFF1D4A0C380086D9F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830AD081D4A0C390086D9F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830AD131D4A0C390086D9F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D830ACF21D4A0C380086D9F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830ACFC1D4A0C380086D9F1 /* ViewController.swift in Sources */,
+				D830AD281D4A0C560086D9F1 /* RKNotificationHub.swift in Sources */,
+				D830ACFA1D4A0C380086D9F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830AD061D4A0C390086D9F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830AD0F1D4A0C390086D9F1 /* RKNotificationHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830AD111D4A0C390086D9F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830AD1A1D4A0C390086D9F1 /* RKNotificationHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D830AD0C1D4A0C390086D9F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830ACF51D4A0C380086D9F1 /* RKNotificationHub */;
+			targetProxy = D830AD0B1D4A0C390086D9F1 /* PBXContainerItemProxy */;
+		};
+		D830AD171D4A0C390086D9F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830ACF51D4A0C380086D9F1 /* RKNotificationHub */;
+			targetProxy = D830AD161D4A0C390086D9F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D830ACFD1D4A0C380086D9F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830ACFE1D4A0C380086D9F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D830AD021D4A0C380086D9F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830AD031D4A0C380086D9F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D830AD1C1D4A0C390086D9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D830AD1D1D4A0C390086D9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D830AD1F1D4A0C390086D9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKNotificationHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D830AD201D4A0C390086D9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKNotificationHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D830AD221D4A0C390086D9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RKNotificationHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKNotificationHub.app/RKNotificationHub";
+			};
+			name = Debug;
+		};
+		D830AD231D4A0C390086D9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RKNotificationHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKNotificationHub.app/RKNotificationHub";
+			};
+			name = Release;
+		};
+		D830AD251D4A0C390086D9F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RKNotificationHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RKNotificationHub;
+			};
+			name = Debug;
+		};
+		D830AD261D4A0C390086D9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RKNotificationHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RKNotificationHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D830ACF11D4A0C380086D9F1 /* Build configuration list for PBXProject "RKNotificationHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830AD1C1D4A0C390086D9F1 /* Debug */,
+				D830AD1D1D4A0C390086D9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D830AD1E1D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830AD1F1D4A0C390086D9F1 /* Debug */,
+				D830AD201D4A0C390086D9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D830AD211D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830AD221D4A0C390086D9F1 /* Debug */,
+				D830AD231D4A0C390086D9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D830AD241D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830AD251D4A0C390086D9F1 /* Debug */,
+				D830AD261D4A0C390086D9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D830ACEE1D4A0C380086D9F1 /* Project object */;
+}
