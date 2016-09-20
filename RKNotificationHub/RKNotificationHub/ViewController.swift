@@ -10,19 +10,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let barButton = UIBarButtonItem(title: "aaaa", style: .Plain, target: self, action: #selector(add))
+        let barButton = UIBarButtonItem(title: "aaaa", style: .plain, target: self, action: #selector(add))
         navigationItem.leftBarButtonItem = barButton
         hub = RKNotificationHub(barButtonItem: barButton)
         hub?.increment()
-
     }
     
-    func add(sender: UIBarButtonItem) {
+    func add(_ sender: UIBarButtonItem) {
         hub?.increment()
         hub?.pop()
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

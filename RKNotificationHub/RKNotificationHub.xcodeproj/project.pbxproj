@@ -196,13 +196,16 @@
 				TargetAttributes = {
 					D830ACF51D4A0C380086D9F1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					D830AD091D4A0C390086D9F1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = D830ACF51D4A0C380086D9F1;
 					};
 					D830AD141D4A0C390086D9F1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = D830ACF51D4A0C380086D9F1;
 					};
 				};
@@ -408,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKNotificationHub.app/RKNotificationHub";
 			};
 			name = Debug;
@@ -443,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKNotificationHub.app/RKNotificationHub";
 			};
 			name = Release;
@@ -454,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RKNotificationHub;
 			};
 			name = Debug;
@@ -465,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RKNotificationHub.RKNotificationHubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RKNotificationHub;
 			};
 			name = Release;
@@ -488,6 +497,7 @@
 				D830AD201D4A0C390086D9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D830AD211D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHubTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +506,7 @@
 				D830AD231D4A0C390086D9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D830AD241D4A0C390086D9F1 /* Build configuration list for PBXNativeTarget "RKNotificationHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				D830AD261D4A0C390086D9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
