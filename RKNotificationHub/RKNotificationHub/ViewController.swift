@@ -15,17 +15,14 @@ class ViewController: UIViewController {
         hub = RKNotificationHub(barButtonItem: barButton)
         hub?.increment()
     }
-    
-    func add(_ sender: UIBarButtonItem) {
+
+    func add(_: UIBarButtonItem) {
         hub?.increment()
         hub?.pop()
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
